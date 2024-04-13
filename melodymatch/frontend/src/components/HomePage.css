@@ -1,0 +1,33 @@
+/* frontend/src/components/HomePage.css */
+
+.home-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .home-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-page p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .get-started-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff5f6d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background-color: #ff3d4a;
+  }
+  
