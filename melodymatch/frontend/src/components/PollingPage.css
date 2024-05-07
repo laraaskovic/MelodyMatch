@@ -1,0 +1,52 @@
+/* frontend/src/components/PollingPage.css */
+
+.polling-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .polling-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .polling-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .polling-option {
+    margin-bottom: 10px;
+  }
+  
+  .polling-option label {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .polling-option input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .polling-submit {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .polling-submit button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .polling-submit button:hover {
+    background-color: #0056b3;
+  }
+  
